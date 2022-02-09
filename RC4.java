@@ -1,7 +1,8 @@
-package com.hit.demo;
 
+
+import java.security.SecureRandom;
 import java.util.Arrays;
-
+import java.util.Random;
 public class RC4 {
     public static void main(String[] args) {
         RC4 rc4 = new RC4();
@@ -64,6 +65,7 @@ public class RC4 {
         byte[] iv = new byte[256];
         byte[] t = new byte[256];
         int keylength = key.length;
+        SecureRandom srandom=new SecureRandom();
         srandom.nextBytes(iv);
         for (int i = 0; i < 256; i++) {
             s[i] = iv[i];
@@ -94,4 +96,3 @@ public class RC4 {
         s[j] = temp;
     }
 }
-
