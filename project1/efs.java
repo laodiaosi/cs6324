@@ -1,3 +1,11 @@
+this is the homework for cs6324 UTD project1
+and the logic of this code is right but miss some part
+do not use toString, and if you want deal with the negative bytes please try other way
+and our group do not submit this version, we submit anothor more reasonable version
+ this version could not run properly, and i don't find the problem, if you find the problem, please send me message!!! LOL
+ 
+ 中国人不骗中国人，这个版本确实运行不了，逻辑是没问题的，根据逻辑写的另一个版本是能用的
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
